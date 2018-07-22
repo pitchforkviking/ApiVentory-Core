@@ -1,0 +1,12 @@
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\bin\Debug\netstandard2.0\ApiVentory.Repository.deps.json
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\bin\Debug\netstandard2.0\ApiVentory.Repository.dll
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\bin\Debug\netstandard2.0\ApiVentory.Repository.pdb
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\bin\Debug\netstandard2.0\ApiVentory.Common.dll
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\bin\Debug\netstandard2.0\ApiVentory.Common.pdb
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\obj\Debug\netstandard2.0\ApiVentory.Repository.csprojAssemblyReference.cache
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\obj\Debug\netstandard2.0\ApiVentory.Repository.csproj.CoreCompileInputs.cache
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\obj\Debug\netstandard2.0\ApiVentory.Repository.AssemblyInfoInputs.cache
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\obj\Debug\netstandard2.0\ApiVentory.Repository.AssemblyInfo.cs
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\obj\Debug\netstandard2.0\ApiVentory.Repository.csproj.CopyComplete
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\obj\Debug\netstandard2.0\ApiVentory.Repository.dll
+D:\Projects\Core\ApiVentory\ApiVentory.Repository\obj\Debug\netstandard2.0\ApiVentory.Repository.pdb
