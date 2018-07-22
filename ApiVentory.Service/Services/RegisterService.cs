@@ -8,5 +8,25 @@ namespace ApiVentory.Service
         {
             _registerRepository = new RegisterRepository();
         }
+
+        public void Create()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Delete()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Read()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Update()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

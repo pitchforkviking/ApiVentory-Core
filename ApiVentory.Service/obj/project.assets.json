@@ -790,7 +790,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "System.Configuration.ConfigurationManager": "4.5.0"
+          "System.Configuration.ConfigurationManager": "4.5.0",
+          "WindowsAzure.Storage": "9.3.0"
         },
         "compile": {
           "bin/placeholder/ApiVentory.Common.dll": {}

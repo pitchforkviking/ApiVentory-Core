@@ -648,7 +648,8 @@
       },
       "ApiVentory.Common/1.0.0": {
         "dependencies": {
-          "System.Configuration.ConfigurationManager": "4.5.0"
+          "System.Configuration.ConfigurationManager": "4.5.0",
+          "WindowsAzure.Storage": "9.3.0"
         },
         "runtime": {
           "ApiVentory.Common.dll": {}

@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ApiVentory.Api
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
