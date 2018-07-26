@@ -3533,11 +3533,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Projects\\Core\\ApiVentory\\ApiVentory.Common\\ApiVentory.Common.csproj",
+      "projectUniqueName": "d:\\Projects\\Core\\ApiVentory-Core\\ApiVentory.Common\\ApiVentory.Common.csproj",
       "projectName": "ApiVentory.Common",
-      "projectPath": "d:\\Projects\\Core\\ApiVentory\\ApiVentory.Common\\ApiVentory.Common.csproj",
+      "projectPath": "d:\\Projects\\Core\\ApiVentory-Core\\ApiVentory.Common\\ApiVentory.Common.csproj",
       "packagesPath": "C:\\Users\\Syndicate\\.nuget\\packages\\",
-      "outputPath": "d:\\Projects\\Core\\ApiVentory\\ApiVentory.Common\\obj\\",
+      "outputPath": "d:\\Projects\\Core\\ApiVentory-Core\\ApiVentory.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

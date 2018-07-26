@@ -12,3 +12,17 @@ D:\Projects\Core\ApiVentory\ApiVentory.Service\obj\Debug\netstandard2.0\ApiVento
 D:\Projects\Core\ApiVentory\ApiVentory.Service\obj\Debug\netstandard2.0\ApiVentory.Service.csproj.CopyComplete
 D:\Projects\Core\ApiVentory\ApiVentory.Service\obj\Debug\netstandard2.0\ApiVentory.Service.dll
 D:\Projects\Core\ApiVentory\ApiVentory.Service\obj\Debug\netstandard2.0\ApiVentory.Service.pdb
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\bin\Debug\netstandard2.0\ApiVentory.Service.deps.json
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\bin\Debug\netstandard2.0\ApiVentory.Service.dll
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\bin\Debug\netstandard2.0\ApiVentory.Service.pdb
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\bin\Debug\netstandard2.0\ApiVentory.Common.dll
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\bin\Debug\netstandard2.0\ApiVentory.Repository.dll
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\bin\Debug\netstandard2.0\ApiVentory.Repository.pdb
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\bin\Debug\netstandard2.0\ApiVentory.Common.pdb
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\obj\Debug\netstandard2.0\ApiVentory.Service.csprojAssemblyReference.cache
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\obj\Debug\netstandard2.0\ApiVentory.Service.csproj.CoreCompileInputs.cache
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\obj\Debug\netstandard2.0\ApiVentory.Service.AssemblyInfoInputs.cache
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\obj\Debug\netstandard2.0\ApiVentory.Service.AssemblyInfo.cs
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\obj\Debug\netstandard2.0\ApiVentory.Service.csproj.CopyComplete
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\obj\Debug\netstandard2.0\ApiVentory.Service.dll
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Service\obj\Debug\netstandard2.0\ApiVentory.Service.pdb

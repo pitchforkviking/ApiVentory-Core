@@ -7,3 +7,12 @@ D:\Projects\Core\ApiVentory\ApiVentory.Common\obj\Debug\netstandard2.0\ApiVentor
 D:\Projects\Core\ApiVentory\ApiVentory.Common\obj\Debug\netstandard2.0\ApiVentory.Common.AssemblyInfo.cs
 D:\Projects\Core\ApiVentory\ApiVentory.Common\obj\Debug\netstandard2.0\ApiVentory.Common.dll
 D:\Projects\Core\ApiVentory\ApiVentory.Common\obj\Debug\netstandard2.0\ApiVentory.Common.pdb
+d:\Projects\Core\ApiVentory-Core\ApiVentory.Common\bin\Debug\netstandard2.0\ApiVentory.Common.deps.json
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Common\bin\Debug\netstandard2.0\ApiVentory.Common.dll
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Common\bin\Debug\netstandard2.0\ApiVentory.Common.pdb
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Common\obj\Debug\netstandard2.0\ApiVentory.Common.csprojAssemblyReference.cache
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Common\obj\Debug\netstandard2.0\ApiVentory.Common.csproj.CoreCompileInputs.cache
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Common\obj\Debug\netstandard2.0\ApiVentory.Common.AssemblyInfoInputs.cache
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Common\obj\Debug\netstandard2.0\ApiVentory.Common.AssemblyInfo.cs
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Common\obj\Debug\netstandard2.0\ApiVentory.Common.dll
+D:\Projects\Core\ApiVentory-Core\ApiVentory.Common\obj\Debug\netstandard2.0\ApiVentory.Common.pdb

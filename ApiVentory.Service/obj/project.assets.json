@@ -3572,11 +3572,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Core\\ApiVentory\\ApiVentory.Service\\ApiVentory.Service.csproj",
+      "projectUniqueName": "D:\\Projects\\Core\\ApiVentory-Core\\ApiVentory.Service\\ApiVentory.Service.csproj",
       "projectName": "ApiVentory.Service",
-      "projectPath": "D:\\Projects\\Core\\ApiVentory\\ApiVentory.Service\\ApiVentory.Service.csproj",
+      "projectPath": "D:\\Projects\\Core\\ApiVentory-Core\\ApiVentory.Service\\ApiVentory.Service.csproj",
       "packagesPath": "C:\\Users\\Syndicate\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Core\\ApiVentory\\ApiVentory.Service\\obj\\",
+      "outputPath": "D:\\Projects\\Core\\ApiVentory-Core\\ApiVentory.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3593,11 +3593,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Projects\\Core\\ApiVentory\\ApiVentory.Common\\ApiVentory.Common.csproj": {
-              "projectPath": "D:\\Projects\\Core\\ApiVentory\\ApiVentory.Common\\ApiVentory.Common.csproj"
+            "D:\\Projects\\Core\\ApiVentory-Core\\ApiVentory.Common\\ApiVentory.Common.csproj": {
+              "projectPath": "D:\\Projects\\Core\\ApiVentory-Core\\ApiVentory.Common\\ApiVentory.Common.csproj"
             },
-            "D:\\Projects\\Core\\ApiVentory\\ApiVentory.Repository\\ApiVentory.Repository.csproj": {
-              "projectPath": "D:\\Projects\\Core\\ApiVentory\\ApiVentory.Repository\\ApiVentory.Repository.csproj"
+            "D:\\Projects\\Core\\ApiVentory-Core\\ApiVentory.Repository\\ApiVentory.Repository.csproj": {
+              "projectPath": "D:\\Projects\\Core\\ApiVentory-Core\\ApiVentory.Repository\\ApiVentory.Repository.csproj"
             }
           }
         }
