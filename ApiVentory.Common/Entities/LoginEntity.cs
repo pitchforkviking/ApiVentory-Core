@@ -12,5 +12,11 @@ namespace ApiVentory.Common
             PartitionKey = partitionKey;
             RowKey = rowKey;
         }
+
+        public string Login { get; set; }
+
+        public string Password { get; set; }
+
+        public bool Verified { get; set; }
     }
 }

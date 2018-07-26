@@ -8,13 +8,13 @@ namespace ApiVentory.Repository
     {        
         private CloudStorageAccount _cloudStorageAccount;
         private CloudTableClient _cloudTableClient;  
-        private CloudTable _cloudTable;
+        private CloudTable _userTable;
         public UserRepository()
         {
             _cloudStorageAccount = CloudStorageAccount.Parse(ConnectionStrings.StorageConnectionString);
             _cloudTableClient = _cloudStorageAccount.CreateCloudTableClient();
-            _cloudTable = _cloudTableClient.GetTableReference(TableReferences.User);
-            _cloudTable.CreateIfNotExistsAsync();
+            _userTable = _cloudTableClient.GetTableReference(TableReferences.User);
+            _userTable.CreateIfNotExistsAsync();
         }
 
         public async Task Create(UserEntity userEntity)
@@ -22,8 +22,8 @@ namespace ApiVentory.Repository
             userEntity.PartitionKey = userEntity.Login.Substring(0,1).ToUpper();
             userEntity.RowKey = userEntity.Login;
 
-            TableOperation insertOperation = TableOperation.InsertOrReplace(userEntity);
-            await _cloudTable.ExecuteAsync(insertOperation);
+            TableOperation insertUserEntityOp = TableOperation.InsertOrReplace(userEntity);
+            await _userTable.ExecuteAsync(insertUserEntityOp);
         }
 
         public async Task<UserEntity> Read(string login)
@@ -31,10 +31,10 @@ namespace ApiVentory.Repository
             string partitionKey = login.Substring(0,1).ToUpper();
             string rowKey = login;
 
-            TableOperation retrieveOperation = TableOperation.Retrieve<UserEntity>(partitionKey, rowKey);
-            TableResult retrievedResult = await _cloudTable.ExecuteAsync(retrieveOperation);
+            TableOperation retrieveUserEntityOp = TableOperation.Retrieve<UserEntity>(partitionKey, rowKey);
+            TableResult retrievedUserEntity = await _userTable.ExecuteAsync(retrieveUserEntityOp);
 
-            return retrievedResult == null ? null : (UserEntity)retrievedResult.Result;
+            return retrievedUserEntity == null ? null : (UserEntity)retrievedUserEntity.Result;
         }
 
         public void Update()

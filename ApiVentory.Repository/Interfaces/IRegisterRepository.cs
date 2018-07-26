@@ -1,8 +1,10 @@
 namespace ApiVentory.Repository
 {
+    using System.Threading.Tasks;
+    using Common;
     public interface IRegisterRepository
     {
-        void Create();
+        Task Create(RegisterModel registerModel);
 
         void Read();
 

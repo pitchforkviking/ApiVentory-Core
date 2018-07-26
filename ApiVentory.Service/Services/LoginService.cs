@@ -1,5 +1,7 @@
 namespace ApiVentory.Service
 {
+    using System.Threading.Tasks;
+    using ApiVentory.Common;
     using Repository;
     public class LoginService : ILoginService
     {
@@ -9,9 +11,9 @@ namespace ApiVentory.Service
             _loginRepository = new LoginRepository();
         }
 
-        public void Create()
+        public async Task Create(LoginModel loginModel)
         {
-            throw new System.NotImplementedException();
+            await _loginRepository.Create(loginModel);
         }
 
         public void Delete()
@@ -19,9 +21,9 @@ namespace ApiVentory.Service
             throw new System.NotImplementedException();
         }
 
-        public void Read()
+        public async Task<bool> Read(LoginModel loginModel)
         {
-            throw new System.NotImplementedException();
+            return await _loginRepository.Read(loginModel);
         }
 
         public void Update()

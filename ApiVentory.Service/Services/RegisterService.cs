@@ -1,5 +1,8 @@
 namespace ApiVentory.Service
 {
+    using System;
+    using System.Threading.Tasks;
+    using ApiVentory.Common;
     using Repository;
     public class RegisterService : IRegisterService
     {
@@ -9,9 +12,16 @@ namespace ApiVentory.Service
             _registerRepository = new RegisterRepository();
         }
 
-        public void Create()
+        public async Task Create(RegisterModel registerModel)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                await _registerRepository.Create(registerModel);
+            }
+            catch(Exception exception)
+            {
+                throw exception;
+            }
         }
 
         public void Delete()

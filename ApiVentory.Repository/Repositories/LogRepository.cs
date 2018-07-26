@@ -19,8 +19,8 @@ namespace ApiVentory.Repository
 
         public async Task Create(LogEntity logEntity)
         {            
-            TableOperation insertOperation = TableOperation.Insert(logEntity);
-            await _cloudTable.ExecuteAsync(insertOperation);
+            TableOperation insertLogEntityOp = TableOperation.Insert(logEntity);
+            await _cloudTable.ExecuteAsync(insertLogEntityOp);
         }
 
         public void Read()

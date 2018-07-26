@@ -18,14 +18,8 @@ namespace ApiVentory.Common
         [JsonIgnore]
         public int Id { get; set; }
 
-        public string User { get; set; }
-
-        public string Group { get; set; }         
+        public string User { get; set; }      
 
         public string Login { get; set; }
-
-        public string Password { get; set; }
-
-        public bool Verified { get; set; }
     }
 }

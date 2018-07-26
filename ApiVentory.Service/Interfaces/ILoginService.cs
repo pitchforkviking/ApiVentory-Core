@@ -1,10 +1,13 @@
 namespace ApiVentory.Service
 {
+    using System.Threading.Tasks;
+    using ApiVentory.Common;
+
     public interface ILoginService
     {
-        void Create();
+        Task Create(LoginModel loginModel);
 
-        void Read();
+        Task<bool> Read(LoginModel loginModel);
 
        void Update();
 
