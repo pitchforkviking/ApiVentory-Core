@@ -23,9 +23,9 @@ namespace ApiVentory.Api
         {
             try
             {
-                UserEntity userEntity = await _userService.Read(login);
+                UserModel userModel = await _userService.Read(login);
                 
-                return Ok(value: userEntity);
+                return Ok(value: userModel);
             }
             catch(Exception exception)
             {
@@ -38,18 +38,18 @@ namespace ApiVentory.Api
                     Details = exception.Message ?? exception.InnerException.Message
                 };
 
-                await _logService.Create(logEntity);
+                //await _logService.Create(logEntity);
 
                 return BadRequest();
             }
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post(UserEntity userEntity)
+        public async Task<ActionResult> Post(UserModel userModel)
         {
             try
             {
-                await _userService.Create(userEntity);
+                await _userService.Create(userModel);
 
                 return Ok();
             }
@@ -58,13 +58,13 @@ namespace ApiVentory.Api
                 //Refactor
                 LogEntity logEntity = new LogEntity
                 {
-                    PartitionKey = userEntity.Login,
-                    User = userEntity.Login,
+                    PartitionKey = userModel.Login,
+                    User = userModel.Login,
                     Event = "POST -> User",
                     Details = exception.Message ?? exception.InnerException.Message
                 };
 
-                await _logService.Create(logEntity);
+                //await _logService.Create(logEntity);
 
                 return BadRequest();
             }

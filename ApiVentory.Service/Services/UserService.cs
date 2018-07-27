@@ -11,12 +11,12 @@ namespace ApiVentory.Service
             _userRepository = new UserRepository();
         }
 
-        public Task Create(UserEntity userEntity)
+        public Task Create(UserModel userModel)
         {
-            return _userRepository.Create(userEntity);
+            return _userRepository.Create(userModel);
         }
 
-        public async Task<UserEntity> Read(string login)
+        public async Task<UserModel> Read(string login)
         {
             return await _userRepository.Read(login);
         }

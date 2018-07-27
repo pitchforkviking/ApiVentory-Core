@@ -5,9 +5,9 @@ namespace ApiVentory.Repository
     using Microsoft.WindowsAzure.Storage.Table;
     public interface IUserRepository
     {
-        Task Create(UserEntity userEntity);
+        Task Create(UserModel userModel);
 
-        Task<UserEntity> Read(string login);
+        Task<UserModel> Read(string login);
 
        void Update();
 
